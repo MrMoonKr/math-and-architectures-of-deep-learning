@@ -1,3 +1,131 @@
+# 책 부록 소스 프로젝트 입니다
+
+- 직무 교육( OJT, On the job Training )을 위해서 생성.  
+- 진행중( WIP, Work on Progress ).  
+  + ...
+
+
+## 책 관련 링크  
+
+<img src="https://image.aladin.co.kr/product/29056/6/cover500/1617296481_2.jpg" alt="" height="256px" align="right">
+
+- [Math and Architectures of Deep Learning [ 원서 ]](https://www.manning.com/books/math-and-architectures-of-deep-learning)  
+
+- [Math and Architectures of Deep Learning [ 외국도서 ]](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=290560627) 
+
+- [Math and Architectures of Deep Learning [ 번역서 없음 ]](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=290560627)  
+
+
+## 개발 환경 구축
+
+- 시스템 ( Computer System )  
+
+  - AMD Ryzen 9 7900X 12-Core Processor
+  - 32G RAM
+  - NVIDIA Geforce RTX 3060 12GB
+  - SSD 2TB
+  - Windows 11 64bit Korean
+
+- 파이썬 ( Python 3.12 )  
+
+  - [Python Download](https://www.python.org/downloads/)  
+    - [v3.12.0 for Windows](https://www.python.org/ftp/python/3.12.0/python-3.12.0-amd64.exe)  
+    - [v3.11.9 for Windows](https://www.python.org/ftp/python/3.11.9/python-3.11.9-amd64.exe)  
+
+- ...  
+
+
+## 의존 패키지
+
+**다음과 같은 순서로 설치하세요.**
+  
+```
+$ (.venv) pip install ipykernel numpy matplotlib scipy  
+$ (.venv) pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
+$ (.venv) pip install lightning
+```
+
+**모듈정보**
+- numpy
+  - [pypi](https://pypi.org/project/numpy/)  
+    ```
+    $ (.venv) pip install numpy
+    ```
+  - Fundamental Package for Array Computing in Python
+
+- matplotlib
+  - [pypi](https://pypi.org/project/matplotlib/)  
+    ```
+    $ (.venv) pip install matplotlib
+    ```
+  - Python Plotting Package
+
+- scipy  
+  - [pypi](https://pypi.org/project/scipy/)  
+    ```
+    $ (.venv) pip install scipy
+    ```
+  - Fundamental algorithms for scientific computing in Python
+
+- scikit-learn
+  - [pypi](https://pypi.org/project/scikit-learn/)  
+    ```
+    $ (.venv) pip install matplotlib
+    ```
+  - A set of python modules for machine learning and data mining
+
+- ipykernel
+  - [pypi](https://pypi.org/project/ipykernel/)  
+    ```
+    $ (.venv) pip install ipykernel
+    ```
+  - [ipykernel](https://github.com/ipython/ipykernel)  
+  - IPython Kernel for Jupyter
+
+- PyTorch
+  - [pypi](https://pypi.org/project/torch/)  
+    ```
+    $ (.venv) pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
+    ```
+  - [PyTorch](https://pytorch.org/)  
+  - Tensors and Dynamic neural networks in Python with strong GPU acceleration
+  - nvidia-smi v531.15
+  - cuda-toolkit v12.8
+
+- PyTorch Lightning
+  - [pypi](https://pypi.org/project/lightning/)  
+    ```
+    $ (.venv) pip install lightning
+    ```
+  - [PyTorch Lightning](https://lightning.ai/docs/pytorch/stable/)  
+  - The deep learning framework to pretrain, finetune and deploy AI models  
+  - PyTorch Lightning is just organized PyTorch - Lightning disentangles PyTorch code to decouple the science from the engineering.
+  - ...  
+
+- ...
+  - [pypi]()  
+    ```
+    $ (.venv) pip install ...
+    ```
+  - [...]()
+  - ...  
+
+
+## 기타
+
+- ...  
+
+- ...  
+
+
+
+---
+---
+---
+
+
+
+
 # Math and Architectures of Deep Learning
 
 Python code (in the form of Jupyter ipython notebooks) to support the book "**Math and Architectures of Deep Learning**".
